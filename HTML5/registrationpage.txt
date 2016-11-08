@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<table>
+    <tr>
+        <td>
+            First Name:
+        </td>
+        <td>
+            <input type="text" name="firstname" placeholder="Ex: test" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Last Name:
+        </td>
+        <td>
+            <input type="text" name="lastname" placeholder="Ex: test" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Email:
+        </td>
+        <td>
+            <input type="email" name="email" placeholder="Ex: example@example.com" required/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Date of Birth:
+        </td>
+        <td>
+            <input type="date" name="birthday" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Time of Birth:
+        </td>
+        <td>
+            <input type="time" name="time" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Address:
+        </td>
+        <td>
+            <input type="text" name="address"  />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gender:
+        </td>
+        <td>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </td>
+    </tr>
+<tr>
+        <td>
+            City:
+        </td>
+        <td>
+            <input type="text" list="countries" />
+
+<datalist id="countries">
+	<option value="India">
+	<option value="China">
+	<option value="United Kingdom">
+	<option value="United States">
+	<option value="Russia">
+	<option value="France">
+	<option value="Japan">
+	<option value="Sri Lanka">
+	<option value="Zimbabwe">
+</datalist>
+        </td>
+    </tr>
+    
+</table>            
+</form>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<a>Visit our HTML tutorial.</a>
+<a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a>
+<h1>This is an image.</h1>
+    <img src="download.jpg" alt="red ball" height="168" width="100">
+<table border="1" cellpadding="5" cellspacing="5">
+<CAPTION>Common Usenet Abbreviations</CAPTION>
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>City</th>
+</tr>
+<tr>
+<td >Neeraj</td>
+<td>Bhatnagar</td>
+<td>Pune</td>
+</tr>
+</table>
+</body>
+</html>

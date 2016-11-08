@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<table cellspac>
+    <tr>
+        <td>
+            First Name:
+        </td>
+        <td>
+            <input type="text" name="firstname" placeholder=" First " required   />
+        </td>
+    
+    
+        <td>
+            <input type="text" name="lastname" placeholder=" Last" required   />
+        </td>
+   </tr>
+
+ <tr>
+        <td>
+            Choose your username:
+        </td>
+        <td>
+            <input type="text" name="email" placeholder="@gmail.com" style="text-align:right" required   />
+        </td>
+    </tr>
+ <tr>
+        <td>
+            Password :
+        </td>
+        <td>
+            <input type="password" name="password1"  required  />
+        </td>
+    </tr>
+<tr>
+        <td>
+           Confirm your Password :
+        </td>
+        <td>
+            <input type="password" name="password2" required    />
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Email:
+        </td>
+        <td>
+            <input type="email" name="email" placeholder="Ex: example@example.com" required/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Date of Birth:
+        </td>
+        <td>
+            <input type="date" name="birthday" />
+        </td>
+    </tr>
+    
+   
+    <tr>
+        <td>
+            Gender:
+        </td>
+        <td>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </td>
+    </tr>
+
+<tr>
+        <td>
+           Mobile phone :
+
+        </td>
+        <td>
+ <input type="text" list="countries" />
+
+<datalist id="countries">
+	<option value="India">
+	<option value="China">
+	<option value="United Kingdom">
+	<option value="United States">
+	<option value="Russia">
+	<option value="France">
+	<option value="Japan">
+	<option value="Sri Lanka">
+	<option value="Zimbabwe">
+</datalist><br>
+            <input type="tel" name="mobileNo" maxlength="10" />
+        </td>
+    </tr>
+<tr>
+        <td>
+           Your current email address :
+        </td>
+        <td>
+            <input type="email" name="currEmail" />
+        </td>
+    </tr>
+<tr>
+<td> Location
+</td>
+<td>
+<input type="text" list="countries" />
+
+<datalist id="countries">
+	<option value="India">
+	<option value="China">
+	<option value="United Kingdom">
+	<option value="United States">
+	<option value="Russia">
+	<option value="France">
+	<option value="Japan">
+	<option value="Sri Lanka">
+	<option value="Zimbabwe">
+</datalist>
+</td>
+</tr>
+
+<tr align="center">
+<td colspan="2">
+<br>
+<input type="submit" value="Continue">
+</td>
+</tr>
+    
+</table> 
+
+
+
+
+
+
+
+
+
+
+           
+</form>
+
+</body>
+</html>
